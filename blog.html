@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+            <title>University Website</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,200;1,700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        </head>
+        <body>
+            <section class="sub-header">
+               <nav>
+                   <a href="index.html">
+                       <img src="images/logo.png" alt="logo">
+                   </a>
+                   <div class ="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                           <li><a href="index.html">HOME</a></li>
+                           <li><a href="about.html">ABOUT</a></li>
+                           <li><a href="courses.html">COURSE</a></li>
+                           <li><a href="blog.html">BLOG</a></li>
+                           <li><a href="contact.html">CONTACT</a></li>
+                       </ul>
+                       </ul>
+                   </div>
+                   <i class="fa fa-bars" onclick="showMenu()"></i>
+               </nav> 
+              <h1> Our Certificate and Online Programs for 2021</h1>
+
+              <!-- --------------blogcontent ------------>
+              <section class="blog-content">
+                  <div class="row">
+                      <div class="blog-left">
+                          <img src="images/certificate.jpg">
+                          <h2>Our Certificate and Online Programs for 2021</h2>
+                          <p>An online certificate is a great way for students to enhance their education. Every year, thousands of students choose to pursue this type of program, which may be available in a range of different fields.
+
+So just what is an online certificate? This type of program allows students to obtain qualifications in a certain area without spending the amount of time required for a traditional degree. Certificates can often be completed in a few months and offer the chance to learn new skills or build understanding. An online certificate can help students learn whenever they have free time by offering coursework, reading assignments, and other educational materials over the Internet. This makes it an excellent choice for those who wish to study outside of a physical classroom.
+
+A range of benefits are available to those who wish to pursue an online certificate. Many of these programs can teach valuable soft skills such as organization and critical thinking. Additionally, some certificate programs allow students to gain important technical skills or enhance their understanding of their field.
+
+An online certificate may involve a number of associated costs, such as tuition, fees, or course materials. Since expenses will vary by institution and subject, potential students should be sure to do their research carefully.
+
+An online certificate can allow students to pursue a variety of career paths. Many employers prefer candidates with educational credentials, and a certificate can provide an edge to those who are seeking competitive positions. Additionally, an online certificate can provide an excellent foundation for further study, should a student choose to continue his or her education. This type of program is a great way to further both professional and academic goals.
+
+If you think you'd like to earn an online certificate, there are numerous programs available. To get started, search for your program below and contact directly the admission office of the school of your choice by filling in the lead form.
+                          </p><div class="comment-box">
+                              <h3>Leave a comment</h3>
+                              <form class="comment-form">
+                                  <input type="text" placeholder="Enter your Name">
+                                  <input type="email" placeholder="Enter your Email" name="">
+                                  <textarea rows="5" placeholder="Type your comment"></textarea>
+                                  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="blog-right">
+                          <h3>Post Categories</h3>
+                          <div>
+                              <span>Business Analytics</span>
+                              <span>21</span>
+                          </div>
+                          <div>
+                              <span>Computer Science</span>
+                              <span>25</span>
+                          </div>
+                          <div>
+                              <span>AutoCAD</span>
+                              <span>26</span>
+                          </div>
+                          <div>
+                              <span>Jorunalism</span>
+                              <span>19</span>
+                          </div>
+                          <div>
+                              <span>Commerce</span>
+                              <span>63</span>
+                          </div>
+                          <div>
+                              <span>Machine Learning</span>
+                              <span>28</span>
+                          </div>
+                          <div>
+                              <span>Data Science</span>
+                              <span>34</span>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+               
+
+
+
+  
+           
+            <!-------------footer------------------->
+            <section class="footer">
+             
+                
+                <br>
+            
+            <div class="icons">
+                <a href="https://icons8.com/icon/118466/facebook"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/></a>
+                <a href="https://icons8.com/icon/60014/twitter"><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter.png"/></a>
+                <a href="https://icons8.com/icon/98960/linkedin"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/></a>
+                <a href="https://icons8.com/icon/Q17dCn2MpcUs/youtube"><img src="https://img.icons8.com/material-outlined/30/000000/youtube--v2.png"/></a>
+                <a href="https://icons8.com/icon/62855/whatsapp"><img src="https://img.icons8.com/ios-glyphs/30/000000/whatsapp.png"/></a>
+
+                <h4>Made with<a href="https://icons8.com/icon/59805/heart"><img src="https://img.icons8.com/ios-glyphs/30/fa314a/like--v1.png"/></a>By Manas & Priyansh</h4>
+            </div>
+        </section>
+
+            <!-----------Javascript for toggle menu ------------->
+            <script>
+                var navLinks = document.getElementById("navLinks");
+
+                function showMenu(){
+                    navLinks.style.right="0";
+                }
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+            </script>
+        </body>
+
+    </html>
